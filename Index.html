@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design </title>
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx  bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Anjali Jaiswal</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Full Stack Developer crafting intelligent and impactful software solutions.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <a href="#" class="btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="image.png" alt="">
+        </div>
+    </section>
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about-image.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Fullstack Developer!</h3>
+            <p>I am a passionate Computer Science student eager to learn, innovate, and build impactful projects. With a
+                strong foundation in algorithms and system design, I aim to contribute to meaningful software solutions
+                and grow as a developer.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!--about section design-->
+
+    <section class="services" id="services">
+
+        <h2 class="heading">Our<span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-link"></i>
+                <h3>Web Development</h3>
+                <p>I build responsive and dynamic websites using modern frontend and backend technologies. My focus is
+                    on creating full-stack web solutions that deliver great user experience and performance.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest<span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="project-image.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Wanderlust - Full-Stack Vacation Rental Platform</h4>
+                    <p>Built a full-stack website using HTML, CSS, JavaScript, Node.js, Express, and MongoDB. Features
+                        include user authentication, listing management (create, update, delete), Map API integration,
+                        and error handling. Deployed on Render.com as a live, responsive platform.</p>
+                    <a href="https://wanderlust-project-83x0.onrender.com" target="_blank">
+                        <i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Anjali | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--custom js-->
+    <script src="script.js"></script>
+</body>
+
+</html>
